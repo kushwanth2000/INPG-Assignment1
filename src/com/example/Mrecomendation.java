@@ -49,7 +49,7 @@ public class Mrecomendation {
 
                 String[] st = data.split("[|]");
                 if (st.length == 5 && st[0]!=""&& st[1]!="" && st[2]!=""&& st[3]!=""&& st[4]!="") {
-                    User user = new User(Integer.parseInt(st[0]), Integer.parseInt(st[1]), st[2], st[3], Integer.parseInt(st[4]));
+                    User user = new User(Integer.parseInt(st[0]), Integer.parseInt(st[1]), st[2], st[3], st[4]);
                     userArrayList.add(user);
                 }
             }

@@ -1,10 +1,10 @@
 package com.example.methods;
 
 public class User {
-    private int user_ID, age, zip_code;
-    private String gender, occupation;
+    private int user_ID, age;
+    private String gender, occupation, zip_code;
 
-    public User(int user_ID, int age, String gender, String occupation, int zip_code) {
+    public User(int user_ID, int age, String gender, String occupation, String zip_code) {
         this.user_ID = user_ID;
         this.age = age;
         this.zip_code = zip_code;
@@ -20,7 +20,7 @@ public class User {
         return age;
     }
 
-    public int getZip_code() {
+    public String getZip_code() {
         return zip_code;
     }
 

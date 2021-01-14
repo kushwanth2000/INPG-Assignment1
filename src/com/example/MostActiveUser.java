@@ -24,10 +24,8 @@ public class MostActiveUser {
 
         for (Integer id : userIDs) {
             int count = 0;
-            for (Ratings ratings : ratingsArrayList) {
-                if (id == ratings.getUser_id()) count++;
-            }
-            m.put(count, id);
+            for (Ratings ratings : ratingsArrayList){ if (id == ratings.getUser_id()) count++;}
+             m.put(count, id);
         }
 
         System.out.println("Most Active User : User ID = " + new Vector(m.values()).get(0));
@@ -35,7 +33,3 @@ public class MostActiveUser {
 
     }
 }
-
-
-
-

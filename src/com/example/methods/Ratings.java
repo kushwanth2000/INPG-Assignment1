@@ -12,4 +12,6 @@ public class Ratings {
 
 
     public int getUser_id() { return user_id; }
+    public int getRating() { return rating; }
+    public int getItem_id() { return item_id; }
     }

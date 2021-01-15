@@ -1,9 +1,7 @@
 package com.example.methods;
 
 public class movies {
-     private int movie_id, isUnknown, isAction, isAdventure, isAnimation, isChildren, isComedy, isCrime,
-                isDocumentary, isDrama, isFantasy, isFilmNoir, isHorror, isMusical, isMystery, isRomance,
-                isSci, isThriller, isWar, isWestern , genre;
+     private int movie_id,  genre;
         private String movie_title, video_release_date, imdb_url, release_date;
 
         public movies(int movie_id, String movie_title, String release_date, String video_release_date,
